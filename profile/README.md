@@ -113,11 +113,13 @@ MoneroDaemon daemon = new MoneroDaemonRpc("http://localhost:38081", "superuser",
 ulong height = await daemon.GetHeightAsync();   // 1523651
 ```
 
-## Contributing
+## Contributing and security
 
-Contributions are welcome in every repository: bug reports, tests, documentation, new language bindings and fixes. Open an issue to discuss larger changes before sending a pull request.
+Contributions are welcome in every repository: bug reports, tests, documentation, new language bindings and fixes. Read the [contributing guide](https://github.com/libmonero/.github/blob/main/CONTRIBUTING.md) and open an issue to discuss larger changes before sending a pull request.
 
-Because the libraries share a model, an API change usually starts in the specification and then lands in each language. If you want to start somewhere, the integration tests and the documentation are a good first step.
+Because the libraries share a model, an API change usually starts in the specification and then lands in each language.
+
+Do not report vulnerabilities in public issues. Follow the [security policy](https://github.com/libmonero/.github/blob/main/SECURITY.md) instead.
 
 ## Acknowledgements
 
